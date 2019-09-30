@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.nestor.gonzalo.cardenas.rojas.microservices.family.FamilyApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.606 s <<< FAILURE! - in com.nestor.gonzalo.cardenas.rojas.microservices.family.FamilyApplicationTests
+FindAll(com.nestor.gonzalo.cardenas.rojas.microservices.family.FamilyApplicationTests)  Time elapsed: 0.029 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.nestor.gonzalo.cardenas.rojas.microservices.family.FamilyApplicationTests.FindAll(FamilyApplicationTests.java:30)
+

@@ -4,9 +4,12 @@ import com.nestor.gonzalo.cardenas.rojas.microservices.family.models.documents.F
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import reactor.core.publisher.Mono;
 
+@SuppressWarnings("checkstyle:Indentation")
 public interface FamilyDao extends ReactiveMongoRepository<Family,String> {
 
-    Mono<Family> findByFullName(String fullName);
+    public Mono<Family> findByFullName(String fullName);
 
-    Mono<Family> findByNumberDocument(String numberDocument);
+    public Mono<Family> findByNumberDocument(String numberDocument);
+
+    //public Flux<Family> findFamilybetweenbirthdates(Date date1,Date date2);
 }
